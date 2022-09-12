@@ -6,10 +6,10 @@ const a =
 const b =
 "https://defatoonline.com.br/wp-content/uploads/2020/04/Unifei.jpg";
 function addvalue() {
-if (i.src == a) {
-    i.src = b;
+if (i.src === a) {
+    i.setAttribute('src', b);
 } else {
-    i.src = a;
+    i.setAttribute('src', a);
 }
 if (texto.textContent === "Situado em Itajuba-MG") {
     texto.textContent = "Situdo em Itabira-MG"
