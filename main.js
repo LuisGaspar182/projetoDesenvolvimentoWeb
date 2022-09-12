@@ -6,7 +6,7 @@ const a =
 const b =
 "https://defatoonline.com.br/wp-content/uploads/2020/04/Unifei.jpg";
 function addvalue() {
-if (i.src === a) {
+if (i.src == a) {
     i.src = b;
 } else {
     i.src = a;
